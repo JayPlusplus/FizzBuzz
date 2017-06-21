@@ -1,9 +1,20 @@
+import java.util.Scanner;
 
 public class FizzBuzz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	     for(int i=1; i<=100; i++){
+		//FizzBuzz upgrade version.
+		// enter starting number and ending number.
+		
+		Scanner keyboard = new Scanner(System.in);
+		int x,y;
+		System.out.println("What is your starting number?");
+		x = keyboard.nextInt();
+		System.out.println("What is your ending number?");
+		y = keyboard.nextInt();
+		
+	     for(int i=x; i<=y; i++){
              
              
              if (i%3 == 0) {
